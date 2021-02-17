@@ -9,3 +9,6 @@ A Simple Hexo Theme
 + Add Footer
 + Add Sidebar
 + Fix article font size
+
+## Supported feature
++ Supported comment system: Disqus, [Valine](https://github.com/xCss/Valine) and [DisqusJS](https://github.com/SukkaW/DisqusJS)
