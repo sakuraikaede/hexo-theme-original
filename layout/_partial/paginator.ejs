@@ -1,0 +1,38 @@
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+    <% if (page.prev == 0){ %>
+      <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Prev</a></li>
+    <% } %>
+    <% if (page.prev > 1){ %>
+      <li class="page-item"><a class="page-link" href="<%= page.prev_link %>">Prev</a></li>
+    <% } %>
+    <% if (page.prev == 1){ %>
+        <li class="page-item"><a class="page-link" href="<%= config.root %>">Prev</a></li>
+    <% } %>
+    <% if (page.current == 1){ %>
+        <li class="page-item active" aria-current="page">
+            <span class="page-link"><%= page.current %></span>
+        </li>
+    <% } %>
+    <% if (page.current !== 1){ %>
+        <li class="page-item"><a class="page-link" href="<%= config.root %>">1</a></li>
+    <% } %>
+    <% for (var i =2; i < page.current;  i++ ) { %>
+      <li class="page-item"><a class="page-link" href="<%= config.root %>page/<%= i %>"><%= i %></a></li>
+    <% } %>
+    <% if (page.current !== 1){ %>
+      <li class="page-item active" aria-current="page">
+        <span class="page-link"><%= page.current %></span>
+      </li>
+    <% } %>
+    <% for (var i =page.current + 1; i <= page.total;  i++ ) { %>
+      <li class="page-item"><a class="page-link" href="<%= config.root %>page/<%= i %>"><%= i %></a></li>
+    <% } %>
+    <% if (page.next == 0){ %>
+      <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Next</a></li>
+    <% } %>
+    <% if (page.next !== 0){ %>
+      <li class="page-item"><a class="page-link" href="<%= page.next_link %>">Next</a></li>
+    <% } %>
+    </ul>
+  </nav>

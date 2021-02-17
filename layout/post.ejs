@@ -1,0 +1,16 @@
+<div class="container d-flex flex-column align-items-center">
+    <div class="card" style="margin: 10px;width: 80%;">
+        <div class="card-body align-items-center">
+        <h5 class="card-title" style="text-align: center;"><%= page.title %></h5>
+        <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;"><%- date(page.date, "YYYY-MM-DD") %></h6>
+        <div class="card-text"><%- page.content %></div>
+        </div>
+    </div>
+    
+</div>
+<div class="container">
+    <div class="d-flex align-items-center">
+        <%- partial('_partial/comment') %>
+    </div>
+</div>
+

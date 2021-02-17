@@ -1,3 +1,27 @@
 menu:
   Home: /
   Archives: /archives
+
+DisqusJS:
+  enable: false
+  shortname:  
+  siteName: 
+  identifier: 
+  url: 
+  title: 
+  api: 
+  apikey: 
+  admin: 
+  adminLabel: 
+  
+Valine:
+  enable: false
+  appId:
+  appKey:
+  
+Disqus:
+  enable: false
+  Shortname: pleasetypeyourshortname
+  
+Feature:
+  fontawesome: true
