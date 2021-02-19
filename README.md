@@ -6,7 +6,7 @@ A Simple Bootstrap Hexo Theme
 ## To Do List
 + Add Archive Page
 + Customizable navigation bar color 
-+ ---Add Footer--- (Finished on Feb 19, 2021)
++ ~~Add Footer~~ (Finished on Feb 19, 2021)
 + Add Sidebar
 + Fix article font size
 
