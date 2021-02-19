@@ -22,6 +22,6 @@ Valine:
 Disqus:
   enable: false
   Shortname: pleasetypeyourshortname
-  
-Feature:
-  fontawesome: true
+
+Footer:
+  Year: 2021
