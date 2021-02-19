@@ -1,5 +1,5 @@
 # hexo-theme-original
-A Simple Hexo Theme
+A Simple Bootstrap Hexo Theme
 
 ## Notice: THIS THEME IS DEVELOPING, DON'T USE IT IN PRODUCTION ENVIRONMENT.
 
