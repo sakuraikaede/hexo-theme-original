@@ -8,6 +8,8 @@ A Simple Bootstrap Hexo Theme
 + Customizable navigation bar color 
 + Fix font size of article
 + ~~Add Footer~~ (Finished on Feb 19, 2021)
++ Changeable Fonts
++ ToC
 
 
 
