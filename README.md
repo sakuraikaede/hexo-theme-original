@@ -6,8 +6,10 @@ A Simple Bootstrap Hexo Theme
 ## To Do List
 + Add Archive Page
 + Customizable navigation bar color 
-+ Add Footer (Finished)
 + Fix font size of article
++ ~~Add Footer~~ (Finished on Feb 19, 2021)
+
+
 
 ## Supported feature
 + Supported comment system: Disqus, [Valine](https://github.com/xCss/Valine) and [DisqusJS](https://github.com/SukkaW/DisqusJS)
