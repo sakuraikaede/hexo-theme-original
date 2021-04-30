@@ -1,14 +1,14 @@
 <div class="container d-flex flex-column align-items-center">
-    <div class="card" style="margin: 10px;width: 80%;">
-        <div class="card-body align-items-center">
-        <h5 class="card-title" style="text-align: center;"><%= page.title %></h5>
-        <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;"><%- date(page.date, "YYYY-MM-DD") %></h6>
-        <div class="card-text"><%- page.content %></div>
+    <div style="margin: 10px;width: 80%;">
+        <div align-items-center">
+        <h5 style="text-align: center;font-size: 22px;"><%= page.title %></h5>
+        <h6 style="text-align: center;"><%- date(page.date, "YYYY-MM-DD") %></h6>
+        <div><%- page.content %></div>
         </div>
     </div>
     
 </div>
-<div class="container">
+<div class="container" style="padding: 10px;">
     <div class="d-flex align-items-center">
         <%- partial('_partial/comment') %>
     </div>

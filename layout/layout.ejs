@@ -4,7 +4,10 @@
   <body>
     <div class="d-flex flex-column" style="min-height:100vh">
       <%- partial('_partial/header') %>
-      <div class="d-flex flex-row" style="flex: 1">
+      <div class="d-flex container-fluid">
+        <hr>
+      </div>
+      <div class="d-flex flex-column" style="flex: 1">
         <%- body %>
       </div>
       <%- partial("_partial/footer") %>
